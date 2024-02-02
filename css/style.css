@@ -4,8 +4,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #999; /* Poor contrast */
-    background-color: #ccc;
+    color: black; /* fixed contrast */
+    background-color: white;
 	border: solid 5px;
 	margin: 100px;
 }
@@ -13,19 +13,21 @@ body {
 header {
 	text-align: center;
 	background-color: #333;
-	color: white;
+	color: white; /* Changed color */
 	padding: 10px 0;
 }
 h1, h2, h3 {
+	color: 434698;
     text-align: center; /* Fixed font size and centered headings */
 }
+
 
 a {
     color: #999; /* Poor link contrast */
 }
 
 a:hover {
-    color: #ccc; /* Even lower contrast on hover */
+    color: red; /* changed hover color */
 }
 
 form {
@@ -33,14 +35,21 @@ form {
 }
 
 input[type="submit"] {
-    background-color: lightgrey;
-    color: white;
+    background-color: white;
+    color: 434698;
     border: none;
 }
 
 button {
     cursor: pointer;
     font-size: 0.8em; /* Small font size */
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Missing focus styles for interactive elements */
