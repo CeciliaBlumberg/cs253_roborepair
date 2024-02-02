@@ -16,8 +16,8 @@ header {
 	color: white;
 	padding: 10px 0;
 }
-h1 {
-    font-size: 1em; /* Small font size for headings */
+h1, h2, h3 {
+    text-align: center; /* Fixed font size and centered headings */
 }
 
 a {
